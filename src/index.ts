@@ -1,9 +1,7 @@
-import express, { Request, Response } from "express";
+import express from "express";
 import cors from "cors";
-// import { indices } from "./db/data";
 import mongoose from "mongoose";
-// import { IStock, StockModel } from "./db/stocksSchema";
-import { insert, displayAll, getAllStock } from "./db/utils";
+// import { insert, displayAll } from "./db/utils";
 import router from "./routes/routes";
 
 const app = express();
